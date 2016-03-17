@@ -1,0 +1,37 @@
+.accordion {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.accordion dt, 
+.accordion dd {
+	border-bottom: 1px solid #ccc;
+	margin: 0px;
+}
+.accordion dt {
+	background: #eaeaea;
+	cursor: pointer;
+	padding: 8px 4px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.accordion dd {
+	padding: 12px 8px;
+}
+span.arrow{    
+    width: 100%;
+    height: 22px;
+    display: inline-block;    
+    padding-left: 26px;
+    line-height: 24px;
+}
+span.collapse{
+	background-image: url('./images/arrow-close.png');
+	background-repeat: no-repeat;
+}
+span.expand{
+	background-image: url('./images/arrow-open.png');
+	background-repeat: no-repeat;
+}
